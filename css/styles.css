@@ -61,7 +61,7 @@ p {
   align-items: center;
 }
 
-.nav-item {
+header ul>li {
   padding: 24px 0;
 }
 
