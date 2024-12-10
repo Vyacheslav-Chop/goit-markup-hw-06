@@ -369,6 +369,7 @@ p {
 .service-box-text {
   border: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px;
 }
 
 .portfolio-item {
@@ -386,7 +387,12 @@ p {
   overflow: hidden;
 }
 
-.overflow {
+.overflow-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
   position: absolute;
   top: 0;
   left: 0;
@@ -398,16 +404,8 @@ p {
   padding: 40px 32px;
 }
 
-.portfolio-wrapper:hover .overflow {
+.portfolio-wrapper:hover .overflow-text {
   transform: translatey(0);
-}
-
-.overflow-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
 }
 
 .portfolio-subtitle {
@@ -436,6 +434,7 @@ p {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -466,6 +465,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  color: #ffffff;
 }
 
 .footer-traling-icon {
