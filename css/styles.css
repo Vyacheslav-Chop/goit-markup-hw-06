@@ -404,7 +404,7 @@ p {
   padding: 40px 32px;
 }
 
-.portfolio-wrapper:hover .overflow-text {
+.portfolio-item:hover .overflow-text {
   transform: translatey(0);
 }
 
