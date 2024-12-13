@@ -507,15 +507,13 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .footer-form {
   display: flex;
   align-items: center;
   gap: 24px;
-}
-
-.footer-form-label {
 }
 
 .form-btn {
