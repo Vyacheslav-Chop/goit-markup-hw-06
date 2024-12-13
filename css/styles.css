@@ -44,7 +44,8 @@ p {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -194,7 +195,8 @@ p {
   border-radius: 4px;
   border: none;
   min-width: 169px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
@@ -405,8 +407,7 @@ p {
   padding: 40px 32px;
 }
 
-.portfolio-item:hover .overflow-text
-.portfolio-item:focus .overflow-text {
+.portfolio-item:hover .overflow-text .portfolio-item:focus .overflow-text {
   transform: translatey(0);
 }
 
@@ -496,11 +497,11 @@ p {
   margin-right: 80px;
 }
 
-.subscribe-form {
+.subscribe-box {
   width: 453px;
 }
 
-.form-desc {
+.subscribe-box-desc {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -508,16 +509,22 @@ p {
   letter-spacing: 0.02em;
 }
 
-.form-group {
+.footer-form {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
+.footer-form-label {
+}
+
 .form-btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
+  font-family: 'Roboto', sans-serif;
+  min-width: 165px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -525,11 +532,12 @@ p {
   text-align: center;
   color: #fff;
   border-radius: 4px;
-  padding: 8px 24px;
+  height: 40px;
   background-color: #4d5ae5;
   border: none;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-btn:hover,
@@ -542,23 +550,22 @@ p {
   fill: #ffffff;
 }
 
-.subscribe-form input {
-  display: flex;
-  align-items: center;
+.footer-form-input {
+  width: 264px;
   height: 40px;
-  flex-grow: 1;
   border: 1px solid #ffffff;
   border-radius: 4px;
-  background-color: inherit;
+  background-color: transparent;
   color: #ffffff;
-  padding: 8px 16px; 
-  outline: none; 
-}
-
-.subscribe-form input::placeholder {
+  outline: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+}
+
+.footer-form input::placeholder {
   color: #fff;
 }
 
