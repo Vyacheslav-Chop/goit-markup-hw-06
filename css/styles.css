@@ -706,6 +706,10 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+.team-section {
+  padding: 120px 0;
+}
+
   .list-team {
     gap: 24px;
   }
@@ -793,6 +797,10 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+.portfolio-section {
+  padding: 120px 0;
+}
+
   .portfolio-list {
     row-gap: 48px;
   }
