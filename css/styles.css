@@ -1276,7 +1276,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .modal {
-    top: 50%;
+    top: 60%;
     padding: 72px 24px 24px;
     width: 408px;
     min-height: 584px;
@@ -1284,6 +1284,12 @@ button {
 
   .checked-text {
     display: inline;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .modal {
+    top: 50%;
   }
 }
 
